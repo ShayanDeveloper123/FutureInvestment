@@ -77,21 +77,22 @@ body {
 }
 
 .feature-item {
-    background: #000000;
+    background: #7e7e7e;
     padding: 20px;
     margin: 10px;
     text-align: center;
     width: 100%;
     max-width: 500px;
-    border: 1px solid #ddd;
+    border: 1px solid #228B22;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
 }
 
 .feature-item img {
-    width: 300px;
-    max-width: 3000px;
     margin-bottom: 15px;
+    align-items: center;
+    width: 100%;
+    max-width:fit-content;
 }
 
 .feature-item h3 {
